@@ -6,14 +6,14 @@ var app = {
     socket:null,
     connectSocket:function(){
 
-        app.socket = io.connect('http://localhost:3030?token='+token);
+        app.socket = io.connect('/?token='+token);
 
         app.socket.on('joined', function(data){
 
             app.token = data.token;
 
             if(!token) {
-                var $visit = $('<p>', {text: 'http://localhost:3030/' + app.token});
+                var $visit = $('<p>', {text: 'http://wsc.proxima.si/' + app.token});
                 $('#link').append($visit);
             }else{
                 app.token = token;
