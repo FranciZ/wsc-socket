@@ -1,0 +1,22 @@
+{
+  "name": "creative-sockets",
+  "description": "",
+  "main": "run.js",
+  "authors": [
+    "FranciZ <franci@proxima.si>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io-client": "^1.4.6",
+    "jquery": "^3.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b906efd1-3f22-415b-a382-0b2f6fa0839e" name="franci sae server" url="http://162.13.6.231">
+        <fileTransfer host="162.13.6.231" port="22" rootFolder="/var/www/socket-game" accessType="SFTP" password="dfc1df9adfc1df9adfcedfcbdfc0dfd9" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
